@@ -1,0 +1,1671 @@
+2021-11-12 17:09:44,027 ERROR 19580 [-/127.0.0.1/-/16ms POST /home/list] nodejs.TypeError: this.ctx.service.home.list is not a function
+    at HomeController.list (F:\桌面\app\后端\book\app\controller\home.js:11:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 19580
+hostname: δ������
+
+2021-11-12 17:22:06,754 ERROR 19748 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19748
+hostname: δ������
+
+2021-11-12 17:25:42,802 ERROR 19748 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19748
+hostname: δ������
+
+2021-11-14 21:01:03,481 ERROR 12296 [-/127.0.0.1/-/4ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:01:05,236 ERROR 12296 [-/127.0.0.1/-/1ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:01:06,148 ERROR 12296 [-/127.0.0.1/-/0ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:02:17,034 ERROR 12296 [-/127.0.0.1/-/1ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:02:25,901 ERROR 12296 [-/127.0.0.1/-/0ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:02:46,308 ERROR 12296 [-/127.0.0.1/-/0ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:02:46,474 ERROR 12296 [-/127.0.0.1/-/1ms GET /findAllBook] nodejs.TypeError: Cannot read property 'Book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12296
+hostname: δ������
+
+2021-11-14 21:03:34,630 ERROR 12364 [-/127.0.0.1/-/4ms GET /findAllBook] nodejs.TypeError: Cannot read property 'book' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12364
+hostname: δ������
+
+2021-11-14 21:05:47,641 ERROR 8268 [-/127.0.0.1/-/4ms GET /findAllBook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 8268
+hostname: δ������
+
+2021-11-14 21:05:50,348 ERROR 8268 [-/127.0.0.1/-/0ms GET /findAllBook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 8268
+hostname: δ������
+
+2021-11-14 21:05:57,154 ERROR 8268 [-/127.0.0.1/-/1ms GET /findAllBook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 8268
+hostname: δ������
+
+2021-11-14 21:05:58,853 ERROR 8268 [-/127.0.0.1/-/0ms GET /findAllBook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 8268
+hostname: δ������
+
+2021-11-14 21:06:37,299 ERROR 5704 [-/127.0.0.1/-/2ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:06:38,965 ERROR 5704 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:06:39,218 ERROR 5704 [-/127.0.0.1/-/0ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:06:39,309 ERROR 5704 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:07:29,453 ERROR 5704 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:07:29,894 ERROR 5704 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 5704
+hostname: δ������
+
+2021-11-14 21:08:48,779 ERROR 6216 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6216
+hostname: δ������
+
+2021-11-14 21:09:03,617 ERROR 14548 [-/127.0.0.1/-/6ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 14548
+hostname: δ������
+
+2021-11-14 21:10:05,414 ERROR 14548 [-/127.0.0.1/-/2ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 14548
+hostname: δ������
+
+2021-11-14 21:10:10,912 ERROR 14548 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 14548
+hostname: δ������
+
+2021-11-14 21:13:15,183 ERROR 6164 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 6164
+hostname: δ������
+
+2021-11-14 21:15:44,931 ERROR 12216 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12216
+hostname: δ������
+
+2021-11-14 21:19:51,790 ERROR 4676 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 4676
+hostname: δ������
+
+2021-11-14 21:21:08,584 ERROR 4676 [-/127.0.0.1/-/0ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 4676
+hostname: δ������
+
+2021-11-14 21:26:48,373 ERROR 2052 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 2052
+hostname: δ������
+
+2021-11-14 21:31:50,375 ERROR 2052 [-/127.0.0.1/-/1ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 2052
+hostname: δ������
+
+2021-11-14 21:32:08,381 ERROR 11876 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 11876
+hostname: δ������
+
+2021-11-14 21:33:06,175 ERROR 8688 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 8688
+hostname: δ������
+
+2021-11-14 21:33:31,168 ERROR 1696 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 1696
+hostname: δ������
+
+2021-11-14 21:34:03,071 ERROR 7288 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\book.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 7288
+hostname: δ������
+
+2021-11-14 21:34:27,004 ERROR 9052 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'findAllBook' of undefined
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:45)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+
+pid: 9052
+hostname: δ������
+
+2021-11-14 21:34:55,424 ERROR 13236 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\book.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 13236
+hostname: δ������
+
+2021-11-14 21:38:43,530 ERROR 13820 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 13820
+hostname: δ������
+
+2021-11-14 21:39:15,002 ERROR 13652 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:23:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 13652
+hostname: δ������
+
+2021-11-14 21:39:51,727 ERROR 12248 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'model' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:22)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12248
+hostname: δ������
+
+2021-11-14 21:41:37,737 ERROR 12240 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:23:28)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 12240
+hostname: δ������
+
+2021-11-14 21:42:20,122 ERROR 14588 [-/127.0.0.1/-/3ms GET /findallbook] nodejs.TypeError: Cannot read property 'booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:21:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 14588
+hostname: δ������
+
+2021-11-14 21:42:33,739 ERROR 2780 [-/127.0.0.1/-/4ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:21:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 2780
+hostname: δ������
+
+2021-11-14 21:43:09,186 ERROR 7928 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 7928
+hostname: δ������
+
+2021-11-14 21:47:42,895 ERROR 16892 [-/127.0.0.1/-/6ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 16892
+hostname: δ������
+
+2021-11-14 21:49:59,720 ERROR 14332 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 14332
+hostname: δ������
+
+2021-11-14 21:51:05,589 ERROR 10532 [-/127.0.0.1/-/5ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 10532
+hostname: δ������
+
+2021-11-14 21:51:29,955 ERROR 17068 [-/127.0.0.1/-/6ms GET /findallbook] nodejs.TypeError: Cannot read property 'Booklist' of undefined
+    at BookService.findAllBook (F:\桌面\app\后端\book\app\service\booklist.js:22:33)
+    at BookController.findAllBook (F:\桌面\app\后端\book\app\controller\booklist.js:24:49)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+
+pid: 17068
+hostname: δ������
+
+2021-11-15 19:22:26,960 ERROR 18084 nodejs.ClusterClientNoResponseError: client no response in 2487637ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\桌面\app\后端\book\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:57:50,968 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:57:55,657 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:01,680 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:02,282 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:04,911 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:07,062 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:09,194 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:11,337 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:24,670 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 20:58:27,861 ERROR 18084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18084
+hostname: δ������
+
+2021-11-15 21:19:20,417 ERROR 17904 [-/127.0.0.1/-/3ms GET /addbook] nodejs.TypeError: this.ctx.service.booklist is not a function
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:28)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17904
+hostname: δ������
+
+2021-11-15 21:29:58,330 ERROR 1848 [-/127.0.0.1/-/4ms GET /addbook] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (F:\桌面\app\后端\book\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (F:\桌面\app\后端\book\node_modules\egg\app\extend\context.js:22:66)
+    at ContextSession.initFromCookie (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:112:24)
+    at ContextSession.get (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (F:\桌面\app\后端\book\node_modules\koa-session\index.js:138:38)
+    at Object.get [egg-security#CSRF_SECRET] (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\桌面\app\后端\book\node_modules\koa-override\index.js:13:70)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:11)
+
+pid: 1848
+hostname: δ������
+
+2021-11-15 21:29:59,193 ERROR 1848 [-/127.0.0.1/-/1ms GET /addbook] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (F:\桌面\app\后端\book\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (F:\桌面\app\后端\book\node_modules\egg\app\extend\context.js:22:66)
+    at ContextSession.initFromCookie (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:112:24)
+    at ContextSession.get (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (F:\桌面\app\后端\book\node_modules\koa-session\index.js:138:38)
+    at Object.get [egg-security#CSRF_SECRET] (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\桌面\app\后端\book\node_modules\koa-override\index.js:13:70)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:11)
+
+pid: 1848
+hostname: δ������
+
+2021-11-15 21:29:59,692 ERROR 1848 [-/127.0.0.1/-/1ms GET /addbook] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (F:\桌面\app\后端\book\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (F:\桌面\app\后端\book\node_modules\egg\app\extend\context.js:22:66)
+    at ContextSession.initFromCookie (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:112:24)
+    at ContextSession.get (F:\桌面\app\后端\book\node_modules\koa-session\lib\context.js:38:39)
+    at Object.get (F:\桌面\app\后端\book\node_modules\koa-session\index.js:138:38)
+    at Object.get [egg-security#CSRF_SECRET] (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (F:\桌面\app\后端\book\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (F:\桌面\app\后端\book\node_modules\koa-override\index.js:13:70)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:11)
+
+pid: 1848
+hostname: δ������
+
+2021-11-15 21:44:51,243 ERROR 18828 [-/127.0.0.1/-/23ms POST /addbook] nodejs.TypeError: this.ctx.service.booklist is not a function
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:28)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 18828
+hostname: δ������
+
+2021-11-15 21:45:39,753 ERROR 6812 [-/127.0.0.1/-/20ms POST /addbook] nodejs.ReferenceError: params is not defined
+    at BookService.addbook (F:\桌面\app\后端\book\app\service\booklist.js:8:19)
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6812
+hostname: δ������
+
+2021-11-15 21:45:45,045 ERROR 6812 [-/127.0.0.1/-/5ms POST /addbook] nodejs.ReferenceError: params is not defined
+    at BookService.addbook (F:\桌面\app\后端\book\app\service\booklist.js:8:19)
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6812
+hostname: δ������
+
+2021-11-15 21:46:10,155 ERROR 6812 [-/127.0.0.1/-/4ms POST /addbook] nodejs.ReferenceError: params is not defined
+    at BookService.addbook (F:\桌面\app\后端\book\app\service\booklist.js:8:19)
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 6812
+hostname: δ������
+
+2021-11-15 21:46:44,649 ERROR 11480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11480
+hostname: δ������
+
+2021-11-15 21:46:49,377 ERROR 20516 [-/127.0.0.1/-/20ms POST /addbook] nodejs.ReferenceError: params is not defined
+    at BookService.addbook (F:\桌面\app\后端\book\app\service\booklist.js:8:19)
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20516
+hostname: δ������
+
+2021-11-15 21:47:05,454 ERROR 20516 [-/127.0.0.1/-/4ms POST /addbook] nodejs.ReferenceError: params is not defined
+    at BookService.addbook (F:\桌面\app\后端\book\app\service\booklist.js:8:19)
+    at BookController.addbook (F:\桌面\app\后端\book\app\controller\booklist.js:9:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 20516
+hostname: δ������
+
+2021-11-15 22:29:36,021 ERROR 11480 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11480
+hostname: δ������
+
+2021-11-16 16:12:36,706 ERROR 9892 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 17:18:28,601 ERROR 9892 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 18:56:22,990 ERROR 9892 nodejs.ClusterClientNoResponseError: client no response in 1496679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\桌面\app\后端\book\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 19:20:39,092 ERROR 5792 [-/127.0.0.1/-/1ms GET /findbyname?bookname=%E7%BA%A2] nodejs.TypeError: Cannot read property 'findname' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:28:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5792
+hostname: δ������
+
+2021-11-16 19:20:44,277 ERROR 5792 [-/127.0.0.1/-/1ms GET /findbyname?bookname=%E7%BA%A2] nodejs.TypeError: Cannot read property 'findname' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:28:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5792
+hostname: δ������
+
+2021-11-16 19:20:51,019 ERROR 5792 [-/127.0.0.1/-/1ms GET /findbyname?bookname=%E7%BA%A2] nodejs.TypeError: Cannot read property 'findname' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:28:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5792
+hostname: δ������
+
+2021-11-16 19:21:25,484 ERROR 5792 [-/127.0.0.1/-/1ms GET /findbyname?bookname=%E7%BA%A2%E6%A5%BC%E6%A2%A6] nodejs.TypeError: Cannot read property 'findname' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:28:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5792
+hostname: δ������
+
+2021-11-16 19:21:27,634 ERROR 5792 [-/127.0.0.1/-/1ms GET /findbyname?bookname=%E7%BA%A2%E6%A5%BC%E6%A2%A6] nodejs.TypeError: Cannot read property 'findname' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:28:37)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 5792
+hostname: δ������
+
+2021-11-16 19:23:12,090 ERROR 9892 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 20:12:19,821 ERROR 19384 [-/127.0.0.1/-/16ms GET /findbyname?bookname=%E7%BA%A2%E6%A5%BC%E6%A2%A6] nodejs.TypeError: Cannot read property 'findById' of undefined
+    at BookService.findname (F:\桌面\app\后端\book\app\service\booklist.js:35:50)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:27:6)
+    at async F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\桌面\app\后端\book\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (F:\桌面\app\后端\book\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\桌面\app\后端\book\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (F:\桌面\app\后端\book\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 19384
+hostname: δ������
+
+2021-11-16 20:33:00,232 ERROR 9892 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 20:36:09,459 ERROR 9892 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9892
+hostname: δ������
+
+2021-11-16 20:37:50,860 ERROR 13412 [-/127.0.0.1/-/24ms POST /findbyname] nodejs.TypeError: Cannot read property 'author' of null
+    at BookService.findname (F:\桌面\app\后端\book\app\service\booklist.js:36:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:27:6)
+    at async F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\桌面\app\后端\book\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (F:\桌面\app\后端\book\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\桌面\app\后端\book\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (F:\桌面\app\后端\book\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13412
+hostname: δ������
+
+2021-11-16 20:40:36,653 ERROR 8416 [-/127.0.0.1/-/25ms POST /findbyname] nodejs.TypeError: Cannot read property 'author' of null
+    at BookService.findname (F:\桌面\app\后端\book\app\service\booklist.js:36:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:27:6)
+    at async F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\桌面\app\后端\book\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (F:\桌面\app\后端\book\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\桌面\app\后端\book\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (F:\桌面\app\后端\book\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8416
+hostname: δ������
+
+2021-11-16 20:40:42,950 ERROR 8416 [-/127.0.0.1/-/4ms POST /findbyname] nodejs.TypeError: Cannot read property 'author' of null
+    at BookService.findname (F:\桌面\app\后端\book\app\service\booklist.js:36:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:27:6)
+    at async F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\桌面\app\后端\book\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\桌面\app\后端\book\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\桌面\app\后端\book\node_modules\koa-bodyparser\index.js:95:5)
+    at async F:\桌面\app\后端\book\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (F:\桌面\app\后端\book\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (F:\桌面\app\后端\book\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (F:\桌面\app\后端\book\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 8416
+hostname: δ������
+
+2021-11-16 20:42:38,551 ERROR 9784 [-/127.0.0.1/-/12ms POST /findbyname] nodejs.TypeError: Cannot read property 'booknames' of undefined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:25:36)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9784
+hostname: δ������
+
+2021-11-16 20:43:04,974 ERROR 4884 [-/127.0.0.1/-/12ms POST /findbyname] nodejs.ReferenceError: booknames is not defined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:25:44)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 4884
+hostname: δ������
+
+2021-11-16 20:43:45,646 ERROR 1644 [-/127.0.0.1/-/12ms POST /findbyname] nodejs.ReferenceError: ctx is not defined
+    at BookController.findbyname (F:\桌面\app\后端\book\app\controller\booklist.js:25:18)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\桌面\app\后端\book\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at next (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:45:18)
+    at F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa-compose\index.js:44:32)
+    at F:\桌面\app\后端\book\node_modules\koa-compose\index.js:36:12
+    at dispatch (F:\桌面\app\后端\book\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at F:\桌面\app\后端\book\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (F:\桌面\app\后端\book\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\桌面\app\后端\book\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1644
+hostname: δ������
+
+2022-11-09 21:08:36,680 ERROR 17652 [-/127.0.0.1/-/10ms GET /findbybookname] nodejs.MongoError: $regex has to be a string
+    at Connection.<anonymous> (C:\Users\HP\Desktop\book4个接口完整版 - 副本\node_modules\mongodb\lib\core\connection\pool.js:453:61)
+    at Connection.emit (node:events:513:28)
+    at processMessage (C:\Users\HP\Desktop\book4个接口完整版 - 副本\node_modules\mongodb\lib\core\connection\connection.js:456:10)
+    at Socket.<anonymous> (C:\Users\HP\Desktop\book4个接口完整版 - 副本\node_modules\mongodb\lib\core\connection\connection.js:625:15)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+ok: 0
+code: 2
+codeName: "BadValue"
+name: "MongoError"
+pid: 17652
+hostname: DESKTOP-49G82KE
+
+2022-11-18 14:49:40,442 ERROR 15576 [-/127.0.0.1/-/22ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15576
+hostname: DESKTOP-49G82KE
+
+2022-11-18 14:49:40,931 ERROR 15576 [-/127.0.0.1/-/6ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15576
+hostname: DESKTOP-49G82KE
+
+2022-11-18 14:49:41,117 ERROR 15576 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15576
+hostname: DESKTOP-49G82KE
+
+2022-11-18 14:52:56,951 ERROR 15576 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15576
+hostname: DESKTOP-49G82KE
+
+2022-11-18 14:58:34,957 ERROR 15576 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15576
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:06:54,704 ERROR 11960 [-/127.0.0.1/-/23ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11960
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:16:13,116 ERROR 11960 [-/127.0.0.1/-/2ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11960
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:16:22,890 ERROR 11960 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11960
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:16:23,868 ERROR 11960 [-/127.0.0.1/-/1ms POST /login] nodejs.TypeError: Cannot read properties of undefined (reading 'findOne')
+    at UserbookService.login (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:19:50)
+    at UserController.login (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:13:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11960
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:35:35,123 ERROR 10736 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10736
+hostname: DESKTOP-49G82KE
+
+2022-11-18 15:35:37,263 ERROR 10736 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 10736
+hostname: DESKTOP-49G82KE
+
+2022-11-18 16:33:26,007 ERROR 11676 [-/127.0.0.1/-/40ms POST /register] nodejs.ReferenceError: userbook is not defined
+    at UserbookService.register (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:9:96)
+    at UserController.register (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:8:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11676
+hostname: DESKTOP-49G82KE
+
+2022-11-18 16:33:27,047 ERROR 11676 [-/127.0.0.1/-/3ms POST /register] nodejs.ReferenceError: userbook is not defined
+    at UserbookService.register (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:9:96)
+    at UserController.register (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:8:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11676
+hostname: DESKTOP-49G82KE
+
+2022-11-18 16:33:27,221 ERROR 11676 [-/127.0.0.1/-/2ms POST /register] nodejs.ReferenceError: userbook is not defined
+    at UserbookService.register (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:9:96)
+    at UserController.register (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:8:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11676
+hostname: DESKTOP-49G82KE
+
+2022-11-18 16:34:01,716 ERROR 11676 [-/127.0.0.1/-/4ms POST /register] nodejs.ReferenceError: userbook is not defined
+    at UserbookService.register (C:\Users\HP\Desktop\book8个接口完整版\app\service\userbook.js:9:96)
+    at UserController.register (C:\Users\HP\Desktop\book8个接口完整版\app\controller\userbook.js:8:37)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11676
+hostname: DESKTOP-49G82KE
+
+2022-11-26 20:26:19,733 ERROR 1432 [-/127.0.0.1/-/30ms GET /findallbook] nodejs.TypeError: Cannot set properties of undefined (setting 'bookname')
+    at BookService.findAllBook (C:\Users\HP\Desktop\book8个接口完整版\app\service\booklist.js:30:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BookController.findAllBook (C:\Users\HP\Desktop\book8个接口完整版\app\controller\booklist.js:21:22)
+    at async C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1432
+hostname: DESKTOP-49G82KE
+
+2022-11-26 20:26:34,592 ERROR 1432 [-/127.0.0.1/-/8ms GET /findallbook] nodejs.TypeError: Cannot set properties of undefined (setting 'bookname')
+    at BookService.findAllBook (C:\Users\HP\Desktop\book8个接口完整版\app\service\booklist.js:30:29)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async BookController.findAllBook (C:\Users\HP\Desktop\book8个接口完整版\app\controller\booklist.js:21:22)
+    at async C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\HP\Desktop\book8个接口完整版\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\HP\Desktop\book8个接口完整版\node_modules\@koa\cors\index.js:98:16)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 1432
+hostname: DESKTOP-49G82KE
+

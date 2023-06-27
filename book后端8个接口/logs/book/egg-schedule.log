@@ -1,0 +1,18 @@
+2022-11-27 10:09:11,023 INFO 14268 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-11-27 10:09:11,023 INFO 14268 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-11-27 10:09:11,023 INFO 14268 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-11-27 10:09:12,133 INFO 6736 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 66047870ms at 2022-11-28 04:30:00.003
+2022-11-27 10:09:12,134 INFO 6736 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 49847866ms at 2022-11-28 00:00:00.000
+2022-11-27 10:09:12,134 INFO 6736 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 49848866ms at 2022-11-28 00:00:01.000
+2022-11-27 10:56:11,615 INFO 8 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-11-27 10:56:11,615 INFO 8 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-11-27 10:56:11,615 INFO 8 [egg-schedule]: register schedule C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-11-27 10:56:12,777 INFO 3928 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63227229ms at 2022-11-28 04:30:00.006
+2022-11-27 10:56:12,778 INFO 3928 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47027223ms at 2022-11-28 00:00:00.001
+2022-11-27 10:56:12,778 INFO 3928 [Timer] C:\Users\HP\Desktop\book8个接口完整版\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47028222ms at 2022-11-28 00:00:01.000
+2023-06-27 18:10:29,945 INFO 15052 [Timer] C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 37170058ms at 2023-06-28 04:30:00.003
+2023-06-27 18:10:29,946 INFO 15052 [Timer] C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 20970054ms at 2023-06-28 00:00:00.000
+2023-06-27 18:10:29,946 INFO 15052 [Timer] C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 20971054ms at 2023-06-28 00:00:01.000
+2023-06-27 18:10:29,413 INFO 5052 [egg-schedule]: register schedule C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2023-06-27 18:10:29,413 INFO 5052 [egg-schedule]: register schedule C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2023-06-27 18:10:29,414 INFO 5052 [egg-schedule]: register schedule C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

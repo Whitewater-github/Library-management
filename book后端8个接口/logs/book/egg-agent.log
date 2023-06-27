@@ -1,0 +1,51 @@
+2022-11-27 00:00:01,031 INFO 8492 [egg-logrotator] agent logger reload: got log-reload message
+2022-11-27 10:09:08,961 INFO 6736 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\book8个接口完整版\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2022-11-27 10:09:08,968 INFO 6736 [egg:core] dump config after load, 4ms
+2022-11-27 10:09:09,019 INFO 6736 [egg-watcher] Start watching: ["C:\\Users\\HP\\Desktop\\book8个接口完整版\\app","C:\\Users\\HP\\Desktop\\book8个接口完整版\\config","C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks","C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks_proxy","C:\\Users\\HP\\Desktop\\book8个接口完整版\\app.js"]
+2022-11-27 10:09:09,019 INFO 6736 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\app"
+2022-11-27 10:09:09,020 INFO 6736 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\config"
+2022-11-27 10:09:09,020 INFO 6736 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks"
+2022-11-27 10:09:09,020 INFO 6736 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks_proxy"
+2022-11-27 10:09:09,020 INFO 6736 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\app.js"
+2022-11-27 10:09:09,020 INFO 6736 [egg-watcher:agent] watcher start success
+2022-11-27 10:09:09,035 INFO 6736 [egg:core] dump config after ready, 6ms
+2022-11-27 10:56:08,646 INFO 3928 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\book8个接口完整版\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2022-11-27 10:56:08,689 INFO 3928 [egg:core] dump config after load, 30ms
+2022-11-27 10:56:08,932 INFO 3928 [egg-watcher] Start watching: ["C:\\Users\\HP\\Desktop\\book8个接口完整版\\app","C:\\Users\\HP\\Desktop\\book8个接口完整版\\config","C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks","C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks_proxy","C:\\Users\\HP\\Desktop\\book8个接口完整版\\app.js"]
+2022-11-27 10:56:08,933 INFO 3928 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\app"
+2022-11-27 10:56:08,934 INFO 3928 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\config"
+2022-11-27 10:56:08,934 INFO 3928 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks"
+2022-11-27 10:56:08,935 INFO 3928 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\mocks_proxy"
+2022-11-27 10:56:08,935 INFO 3928 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\book8个接口完整版\\app.js"
+2022-11-27 10:56:08,936 INFO 3928 [egg-watcher:agent] watcher start success
+2022-11-27 10:56:08,962 INFO 3928 [egg:core] dump config after ready, 10ms
+2023-06-27 17:59:08,978 INFO 8976 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2023-06-27 17:59:08,985 INFO 8976 [egg:core] dump config after load, 3ms
+2023-06-27 17:59:09,034 INFO 8976 [egg-watcher] Start watching: ["C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"]
+2023-06-27 17:59:09,034 INFO 8976 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app"
+2023-06-27 17:59:09,034 INFO 8976 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config"
+2023-06-27 17:59:09,034 INFO 8976 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks"
+2023-06-27 17:59:09,034 INFO 8976 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy"
+2023-06-27 17:59:09,035 INFO 8976 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"
+2023-06-27 17:59:09,035 INFO 8976 [egg-watcher:agent] watcher start success
+2023-06-27 17:59:09,051 INFO 8976 [egg:core] dump config after ready, 7ms
+2023-06-27 18:02:44,402 INFO 8712 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2023-06-27 18:02:44,411 INFO 8712 [egg:core] dump config after load, 5ms
+2023-06-27 18:02:44,457 INFO 8712 [egg-watcher] Start watching: ["C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"]
+2023-06-27 18:02:44,458 INFO 8712 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app"
+2023-06-27 18:02:44,458 INFO 8712 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config"
+2023-06-27 18:02:44,458 INFO 8712 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks"
+2023-06-27 18:02:44,459 INFO 8712 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy"
+2023-06-27 18:02:44,459 INFO 8712 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"
+2023-06-27 18:02:44,459 INFO 8712 [egg-watcher:agent] watcher start success
+2023-06-27 18:02:44,473 INFO 8712 [egg:core] dump config after ready, 8ms
+2023-06-27 18:10:28,202 INFO 15052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2023-06-27 18:10:28,210 INFO 15052 [egg:core] dump config after load, 4ms
+2023-06-27 18:10:28,257 INFO 15052 [egg-watcher] Start watching: ["C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy","C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"]
+2023-06-27 18:10:28,258 INFO 15052 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app"
+2023-06-27 18:10:28,258 INFO 15052 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\config"
+2023-06-27 18:10:28,258 INFO 15052 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks"
+2023-06-27 18:10:28,258 INFO 15052 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\mocks_proxy"
+2023-06-27 18:10:28,258 INFO 15052 [egg-watcher] Start watching: "C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\app.js"
+2023-06-27 18:10:28,259 INFO 15052 [egg-watcher:agent] watcher start success
+2023-06-27 18:10:28,272 INFO 15052 [egg:core] dump config after ready, 8ms

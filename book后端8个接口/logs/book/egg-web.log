@@ -1,0 +1,52 @@
+2022-11-27 00:00:01,031 INFO 12384 [egg-logrotator] app logger reload: got log-reload message
+2022-11-27 10:09:10,982 INFO 14268 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\book8个接口完整版\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-11-27 10:09:11,024 INFO 14268 [egg-multipart] stream mode enable
+2022-11-27 10:09:11,806 INFO 14268 [egg-mongoose] connecting mongodb://127.0.0.1:27017/books
+2022-11-27 10:09:12,049 INFO 14268 [egg-static] starting static serve /public/ -> C:\Users\HP\Desktop\book8个接口完整版\app\public
+2022-11-27 10:09:12,052 INFO 14268 [egg-security] use methodnoallow middleware
+2022-11-27 10:09:12,054 INFO 14268 [egg-security] use noopen middleware
+2022-11-27 10:09:12,055 INFO 14268 [egg-security] use nosniff middleware
+2022-11-27 10:09:12,056 INFO 14268 [egg-security] use xssProtection middleware
+2022-11-27 10:09:12,057 INFO 14268 [egg-security] use xframe middleware
+2022-11-27 10:09:12,058 INFO 14268 [egg-security] use dta middleware
+2022-11-27 10:09:12,058 INFO 14268 [egg-security] compose 6 middlewares into one security middleware
+2022-11-27 10:09:12,073 INFO 14268 [egg:core] dump config after load, 6ms
+2022-11-27 10:09:12,079 INFO 14268 [egg-mongoose] starting...
+2022-11-27 10:09:12,113 INFO 14268 [egg-mongoose] mongodb://127.0.0.1:27017/books connected successfully
+2022-11-27 10:09:12,114 INFO 14268 [egg-mongoose] instance[0] start successfully
+2022-11-27 10:09:12,116 INFO 14268 [egg-watcher:application] watcher start success
+2022-11-27 10:09:12,127 INFO 14268 [egg:core] dump config after ready, 8ms
+2022-11-27 10:56:11,556 INFO 8 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\book8个接口完整版\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2022-11-27 10:56:11,616 INFO 8 [egg-multipart] stream mode enable
+2022-11-27 10:56:12,493 INFO 8 [egg-mongoose] connecting mongodb://127.0.0.1:27017/books
+2022-11-27 10:56:12,685 INFO 8 [egg-static] starting static serve /public/ -> C:\Users\HP\Desktop\book8个接口完整版\app\public
+2022-11-27 10:56:12,690 INFO 8 [egg-security] use methodnoallow middleware
+2022-11-27 10:56:12,691 INFO 8 [egg-security] use noopen middleware
+2022-11-27 10:56:12,692 INFO 8 [egg-security] use nosniff middleware
+2022-11-27 10:56:12,693 INFO 8 [egg-security] use xssProtection middleware
+2022-11-27 10:56:12,694 INFO 8 [egg-security] use xframe middleware
+2022-11-27 10:56:12,695 INFO 8 [egg-security] use dta middleware
+2022-11-27 10:56:12,695 INFO 8 [egg-security] compose 6 middlewares into one security middleware
+2022-11-27 10:56:12,710 INFO 8 [egg:core] dump config after load, 5ms
+2022-11-27 10:56:12,718 INFO 8 [egg-mongoose] starting...
+2022-11-27 10:56:12,752 INFO 8 [egg-mongoose] mongodb://127.0.0.1:27017/books connected successfully
+2022-11-27 10:56:12,753 INFO 8 [egg-mongoose] instance[0] start successfully
+2022-11-27 10:56:12,756 INFO 8 [egg-watcher:application] watcher start success
+2022-11-27 10:56:12,766 INFO 8 [egg:core] dump config after ready, 9ms
+2023-06-27 18:10:29,384 INFO 5052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\HP\\Desktop\\压缩包\\book8个接口完整版无node\\logs\\book","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"book-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2023-06-27 18:10:29,414 INFO 5052 [egg-multipart] stream mode enable
+2023-06-27 18:10:29,761 INFO 5052 [egg-mongoose] connecting mongodb://127.0.0.1:27017/books
+2023-06-27 18:10:29,871 INFO 5052 [egg-static] starting static serve /public/ -> C:\Users\HP\Desktop\压缩包\book8个接口完整版无node\app\public
+2023-06-27 18:10:29,873 INFO 5052 [egg-security] use methodnoallow middleware
+2023-06-27 18:10:29,874 INFO 5052 [egg-security] use noopen middleware
+2023-06-27 18:10:29,875 INFO 5052 [egg-security] use nosniff middleware
+2023-06-27 18:10:29,875 INFO 5052 [egg-security] use xssProtection middleware
+2023-06-27 18:10:29,876 INFO 5052 [egg-security] use xframe middleware
+2023-06-27 18:10:29,876 INFO 5052 [egg-security] use dta middleware
+2023-06-27 18:10:29,876 INFO 5052 [egg-security] compose 6 middlewares into one security middleware
+2023-06-27 18:10:29,888 INFO 5052 [egg:core] dump config after load, 5ms
+2023-06-27 18:10:29,895 INFO 5052 [egg-mongoose] starting...
+2023-06-27 18:10:29,926 INFO 5052 [egg-mongoose] mongodb://127.0.0.1:27017/books connected successfully
+2023-06-27 18:10:29,928 INFO 5052 [egg-mongoose] instance[0] start successfully
+2023-06-27 18:10:29,930 INFO 5052 [egg-watcher:application] watcher start success
+2023-06-27 18:10:29,938 INFO 5052 [egg:core] dump config after ready, 6ms
